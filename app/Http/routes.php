@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Inicio@index');
+
+Route::post('/login','Inicio@login');
+
+Route::get('/admin','Usuario@admin');

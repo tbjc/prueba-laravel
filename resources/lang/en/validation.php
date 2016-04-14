@@ -13,14 +13,14 @@ return [
     |
     */
 
-    'accepted'             => 'The :attribute must be accepted.',
-    'active_url'           => 'The :attribute is not a valid URL.',
-    'after'                => 'The :attribute must be a date after :date.',
-    'alpha'                => 'The :attribute may only contain letters.',
-    'alpha_dash'           => 'The :attribute may only contain letters, numbers, and dashes.',
-    'alpha_num'            => 'The :attribute may only contain letters and numbers.',
-    'array'                => 'The :attribute must be an array.',
-    'before'               => 'The :attribute must be a date before :date.',
+    'accepted'             => 'El :attribute debe ser aceptado.',
+    'active_url'           => 'El :attribute no es una URL valida.',
+    'after'                => 'El :attribute must be a date after :date.',
+    'alpha'                => 'El :attribute may only contain letters.',
+    'alpha_dash'           => 'El :attribute may only contain letters, numbers, and dashes.',
+    'alpha_num'            => 'El :attribute may only contain letters and numbers.',
+    'array'                => 'El :attribute must be an array.',
+    'before'               => 'El :attribute must be a date before :date.',
     'between'              => [
         'numeric' => 'The :attribute must be between :min and :max.',
         'file'    => 'The :attribute must be between :min and :max kilobytes.',
@@ -61,7 +61,7 @@ return [
     'numeric'              => 'The :attribute must be a number.',
     'present'              => 'The :attribute field must be present.',
     'regex'                => 'The :attribute format is invalid.',
-    'required'             => 'The :attribute field is required.',
+    'required'             => 'El :attribute es requerido.',
     'required_if'          => 'The :attribute field is required when :other is :value.',
     'required_unless'      => 'The :attribute field is required unless :other is in :values.',
     'required_with'        => 'The :attribute field is required when :values is present.',
