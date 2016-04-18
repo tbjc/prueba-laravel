@@ -11,9 +11,8 @@ class ExampleTest extends TestCase
      *
      * @return void
      */
-    public function testBasicExample()
-    {
-        $this->visit('/')
-             ->see('Laravel 5');
+    public function testBasicExample(){
+        $user = App\User::find(1);
+        $this->actingAs($user)->visit('/admin')->see('aaa');
     }
 }

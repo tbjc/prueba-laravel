@@ -15,4 +15,8 @@ Route::get('/', 'Inicio@index');
 
 Route::post('/login','Inicio@login');
 
+Route::get('/salir','Inicio@salir');
+
 Route::get('/admin','Usuario@admin');
+
+Route::post('/createuser','Usuario@create');
